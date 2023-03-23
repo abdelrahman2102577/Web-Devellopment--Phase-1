@@ -109,7 +109,7 @@ header {
 .product-img {
     width: 100%;
     aspect-ratio: 1/1;
-    object-fit: cover;
+    object-fit:fill;
     margin-bottom: .5rem;
 }
 
