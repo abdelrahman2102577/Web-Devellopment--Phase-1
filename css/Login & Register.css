@@ -6,7 +6,7 @@
 }
 
 body {
-  min-height: 100vh;
+  min-height: 115vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -124,4 +124,139 @@ form .text h3 a:hover {
   color: red;
   font-size: 9px;
   height: 13px;
+}
+
+nav{
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background: var(--bg-color);
+	padding: 17px 11%;
+	border-bottom: 1px solid #f7f9fb;
+	transition: all .45s ease;
+    background-color: white;
+}
+.logo img{
+	width: 100%;
+	height: auto;
+}
+.navbar{
+	display: flex;
+	
+}
+.navbar a{
+	font-size: var(--p-font);
+	color: var(--text-color);
+	font-weight: 400;
+	padding: 10px 25px;
+	margin: 0 5px;
+	background:fixed;
+	border-radius: 30px;
+	transition: all .45s ease;
+}
+
+.navbar a:hover{
+	background: #f7f9fb;
+}
+.navbar a.active{
+	background: #f7f9fb;
+}
+.navbar .drop-list {
+    position: absolute;
+    top: 85px;
+    opacity: 0;
+    visibility: hidden;
+	background-color: #fdfdfd;
+	border-top: 5px solid rgb(23, 26, 23);
+    border-top-right-radius: 13px ;
+	border-top-left-radius: 11px  ;
+	
+	
+}
+/* making drop-list to be shown after hovering on men */
+.navbar li:hover > .drop-list{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+/* using before to make a small arrow to be added on the drop-list */
+.navbar .drop-list::before{
+	content: "";
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	border-top: 10px solid transparent;
+	border-bottom: 12px solid rgb(0, 0, 0);
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	top:-33px;
+	left: 11px;
+	
+
+}
+
+
+/* making drop-list to be shown after hovering on men */
+.navbar li:hover > .drop-list{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+
+}
+
+.navbar .drop-list li>a{
+    position: relative;
+    margin: 5px;
+    width: 150px;
+    float: none;
+    display: list-item;
+	text-align: center;
+	color: #0f172a;
+	border: 2px solid rgb(48, 53, 53);
+	
+	
+}
+.icons{
+	display: flex;
+	align-items: center;
+}
+.icons i{
+	height: 50px;
+	width: 50px;
+	background: #f7f9fb;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	color: var(--other-color);
+	font-size: 22px;
+	margin-right: 25px;
+	margin-left: 10px;
+	transition: all .45s ease;
+}
+    
+.icons i:hover{
+	transform: scale(0.9);
+}
+#menu-icon{
+	color: var(--other-color);
+	font-size: 33px;
+	z-index: 10001;
+	cursor: pointer;
+	display: none;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
 }
