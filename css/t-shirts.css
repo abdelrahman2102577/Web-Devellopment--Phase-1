@@ -1,0 +1,59 @@
+
+  
+  .row {
+    display: flex;
+  }
+  
+  
+  .column {
+    flex: 10%;
+
+  }
+  .nav{
+    background-color: white;
+    overflow: hidden;
+  }
+  .nav a{
+color: grey;
+float: left;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+
+  }
+  .price{
+    color: rgb(30, 30, 170);
+    margin: 0px;
+    padding: 0px;
+        
+  }
+  .desc{
+    color: grey;
+    margin: 0px;
+    padding: 0px;
+        
+  }
+  .title{
+    color: blue;
+    font-style: normal;
+    font-size: xx-large;
+    text-indent: 10px;
+
+    
+  }
+  .column{
+    background-color: white;
+
+    
+  }
+  .column:hover{
+    transform: scale(1.1);
+   text-align:center;
+  }
+.size{
+    color: red;
+    margin: 0px;
+padding: 0px;
+    
+}
