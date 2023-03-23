@@ -184,7 +184,7 @@ section{
 }
 .btn{
 	display: inline-block;
-	padding: 16px 30px;
+    padding: 0px 5px;
 	background: var(--text-color);
 	color: var(--bg-color);
 	font-size: 15px;
