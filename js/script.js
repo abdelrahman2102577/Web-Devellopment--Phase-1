@@ -23,3 +23,8 @@ const sr = ScrollReveal ({
 	delay: 400,
 	reset: true
 })
+
+/* for adding add a visually appealing animation to the webpage by gradually revealing certain elements as the user scrolls down the page */
+sr.reveal('.home-text',{delay:200, origin:'top'});
+sr.reveal('.home-img',{delay:300, origin:'top'});
+sr.reveal('.feature, .product, .cta-content, .contact',{delay:200, origin:'top'});
