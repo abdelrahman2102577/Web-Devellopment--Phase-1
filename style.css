@@ -149,6 +149,117 @@ nav{
 	cursor: pointer;
 	display: none;
 }
+/* styling for home -section design */
+
+section{
+	padding: 100px 11% 90px;
+}
+.home{
+	height: 100vh;
+	width: 100%;
+	background-image: url(/images/background.svg);
+	background-color: #e3ffe6;
+	background-size: cover;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.home-text h4{
+	font-size: 22px;
+	font-weight: 500;
+	color: var(--other-color);
+}
+.home-text h1{
+	font-size: var(--big-font);
+	color: var(--text-color);
+	line-height: 1.2;
+	margin: 25px 0 45px;
+}
+.btn{
+	display: inline-block;
+	padding: 16px 30px;
+	background: var(--text-color);
+	color: var(--bg-color);
+	font-size: 15px;
+	letter-spacing: 1px;
+	border-radius: 30px;
+	transition: all .45s ease;
+}
+.btn:hover{
+	letter-spacing: 2px;
+	opacity: 0.8;
+}
+.middle-text h2{
+	font-size: var(--h2-font);
+	color: var(--text-color);
+	font-weight: 600;
+}
+span{
+	color: var(--main-color);
+}
+.feature-content{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	gap: 2rem;
+	align-items: center;
+	margin-top: 5rem;
+}
+.row{
+	padding: 40px 30px;
+	background: #e3ffe6;
+	border-radius: 20px;
+	transition: all .45s ease;
+}
+.main-row{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	gap: 2rem;
+}
+.row-img img{
+	width: 170px;
+	height: auto;
+	max-width: 100%;
+}
+.row-text h6{
+	font-size: 14px;
+	font-weight: 500;
+	color: var(--other-color);
+	margin-bottom: 1rem;
+}
+.row-text h3{
+	margin-bottom: 3rem;
+	font-size: 26px;
+	font-weight: 600;
+}
+.row-btn{
+	display: inline-block;
+	padding: 12px 22px;
+	background: var(--bg-color);
+	color: var(--text-color);
+	font-size: 15px;
+	border-radius: 30px;
+	transition: all .45s ease;
+}
+.row-btn:hover{
+	letter-spacing: 1px;
+	color: var(--bg-color);
+	background: var(--text-color);
+}
+.row2{
+	background: #fef2f2;
+}
+.row3{
+	background: #eff6ff;
+}
+.row:hover{
+	transform: translateY(-5px);
+	cursor: pointer;
+}
 
 
 
@@ -201,6 +312,12 @@ nav{
 	}
 	nav.sticky{
 		padding: 10px 3%;
+	}
+	section{
+		padding: 80px 3% 70px;
+	}
+	.home{
+		gap: 1rem;
 	}
 }
 @media (max-width: 1515px){
