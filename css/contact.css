@@ -10,7 +10,7 @@ a {
 
 body {
 
-    background: cyan;
+    background: rgb(255, 255, 255);
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -34,7 +34,7 @@ body {
 .contact-right {
     flex-basis: 40%;
     padding: 40px;
-    background: #1c00b5;
+    background: #0f0f0f;
     color: white;
 }
 
@@ -77,11 +77,11 @@ textarea {
 label {
     margin-bottom: 6px;
     display: block;
-    color: #1c00b5;
+    color: #000000;
 }
 
 button {
-    background: #1c00b5;
+    background: #07d664;
     width: 100px;
     border: none;
     outline: none;
@@ -93,7 +93,7 @@ button {
 }
 
 .contact-left h3 {
-    color: #1c00b5;
+    color: #111111;
     font-weight: 600;
     margin-bottom: 30px;
 }

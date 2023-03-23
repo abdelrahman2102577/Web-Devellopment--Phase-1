@@ -23,7 +23,7 @@ body {
 }
 
 .about-section {
-    background: url(../images/about/pic.jpg) no-repeat left;
+    background: url(../images/about/about.jpg) no-repeat left;
     background-size: 45%;
     height: 100%;
     background-color: white;
@@ -40,7 +40,7 @@ a {
 .inner-container {
     width: 55%;
     float: right;
-    background-color: cyan;
+    background-color: rgb(255, 255, 255);
     padding: 150px;
 }
 
@@ -48,11 +48,13 @@ a {
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 900;
+    text-decoration-style: double;
+    text-align: center;
 }
 
 .text {
-    font-size: 13px;
-    color: #545454;
+    font-size: 20px;
+    color: #1a1919;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
