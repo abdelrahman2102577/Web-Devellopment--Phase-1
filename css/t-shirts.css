@@ -41,7 +41,15 @@ body {
 }
 
 /* Products */
-
+.btn {
+  position:relative;
+  bottom: 0;
+  right: 0;
+  background-color: var(--text-color);
+  color: var(--bg-color);
+  padding: 10px;
+  cursor: pointer;
+}
 .row {
   display: flex;
   flex-wrap: wrap;
