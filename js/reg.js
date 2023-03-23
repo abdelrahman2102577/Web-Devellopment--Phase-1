@@ -75,11 +75,9 @@ const validateInputs = () => {
         setSuccess(password2);
         conpassvalid = true;
     }
+
     if (uservalid === true && emailvalid === true && passvalid === true && conpassvalid === true) {
-        window.close();
+        window.open("../html/login.html", "_blank", "height=1000, width=2000");
     }
 
 };
-function openlog() {
-    window.open("logrig.html", "_blank", "height=1000, width=2000");
-}

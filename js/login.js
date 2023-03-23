@@ -57,8 +57,13 @@ const validateInputs = () => {
         passvalid = true;
     }
 
-    if (emailvalid === true && passvalid === true) {
-        window.close();
-    }
 
+
+    if (emailvalid === true && email.value === "admin@111.com" && passvalid === true && password.value === "admin1111") {
+        window.open("../html/dashboard.html", "_blank", "height=1000, width=2000");
+    }
+    if (emailvalid === true && email.value !== "admin@111.com" && passvalid === true && password.value !== "admin1111") {
+        window.open("../html/index.html", "_blank", "height=1000, width=2000");
+    }
 };
+
