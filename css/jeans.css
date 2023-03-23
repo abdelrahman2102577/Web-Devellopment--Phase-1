@@ -204,6 +204,8 @@ header {
 .cart-remove {
     font-size: 15px;
     color: var(--main-color);
+    height: 30px;
+    width: 30px;
     cursor: pointer;
 }
 
