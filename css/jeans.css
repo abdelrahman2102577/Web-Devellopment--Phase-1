@@ -62,14 +62,14 @@ header {
 .logo {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--sec-color);
+    color: black;
     text-transform: uppercase;
 
 
 }
 
 .logo span {
-    color: var(--main-color);
+    color: white;
     font-weight: 700;
 }
 
