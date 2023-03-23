@@ -1,0 +1,297 @@
+/* Set default styles for the page */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Style for the sidebar */
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* Style for the sidebar logo */
+.sidebar-brand {
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar-brand h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Style for the sidebar menu */
+.sidebar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-menu li {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-menu a {
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar-menu a:hover {
+    background-color: #555;
+}
+
+.sidebar-menu a.active {
+    background-color: #555;
+}
+
+.sidebar-menu span {
+    margin-right: 10px;
+}
+
+/* Style for the main content */
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+/* Style for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+/* Style for the header title */
+.header-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-title h2 {
+    margin: 0;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+/* Style for the header icons */
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icons span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Style for the user wrapper */
+.user-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.user-wrapper img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-wrapper h4, .user-wrapper small {
+    margin: 0;
+}
+
+/* Style for the cards */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-single {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(25% - 20px);
+    margin: 0 10px 20px 10px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.card-single:hover {
+    transform: translateY(-5px);
+}
+
+.card-single div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.card-single div:first-child h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.card-single div:first-child span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-single div:last-child span {
+    font-size: 14px;
+    color: #888;
+    }
+    
+    /* Style for the project cards */
+    .project-card {
+    width: 100%;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    }
+    
+    .project-card .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    }
+    
+    .project-card .card-header h2 {
+    margin: 0;
+    font-size: 24px;
+    }
+    
+    .project-card .card-header button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .project-card .card-body {
+    padding: 20px;
+    }
+    
+    .project-card table {
+    width: 100%;
+    border-collapse: collapse;
+    }
+    
+    .project-card th, .project-card td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    }
+    
+    .project-card th {
+    font-weight: 700;
+    }
+    
+    .project-card td span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    }
+    
+    .project-card td .status.review {
+    background-color: #ffcc00;
+    }
+    
+    .project-card td .status.in-progress {
+    background-color: #0077c2;
+    }
+    
+    .project-card td .status.pending {
+    background-color: #ee4444;
+    }
+    
+    /* Style for the recent customers */
+    .recent-customers {
+    background-color: #fff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+    }
+    
+    .recent-customers .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    }
+    
+    .recent-customers .card-header h2 {
+    margin: 0;
+    font-size: 24px;
+    }
+    
+    .recent-customers .card-header button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .recent-customers .card-body {
+    padding: 20px;
+    }
+    
+    .customer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    }
+    
+    .customer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    }
+    
+    .customer h4, .customer small {
+    margin: 0;
+    }
+    
+    .customer small {
+    color: #888;
+    }
+    
+    .customer span {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #333;
+    }
