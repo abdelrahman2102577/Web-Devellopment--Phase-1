@@ -35,7 +35,7 @@ section {
 
 body {
     color: var(--text-color);
-    background-color: rgba(0, 0, 255, 0.459);
+    background-color: white;
 }
 
 
@@ -80,7 +80,7 @@ header {
 }
 
 .shop {
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .section-title {
