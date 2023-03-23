@@ -35,7 +35,7 @@ section {
 
 body {
     color: var(--text-color);
-    background-color: pink;
+    background-color: rgba(0, 0, 255, 0.459);
 }
 
 
@@ -48,7 +48,7 @@ header {
     background-color: var(--bg-color);
     box-shadow: 0 1px 4px hsl(0 4% 15% / 100%);
     z-index: 100;
-    background-color: deeppink;
+    background-color: rgba(0, 0, 255, 0.733);
 }
 
 .nav {
@@ -147,11 +147,10 @@ header {
     overflow-y: auto;
     overflow-x: hidden;
     padding: 20px;
-    background-color: var(--bg-color);
     box-shadow: -2px solid 4px hsl(0, 4%, 15%/10%);
     border: 1px solid var(--main-color);
     transition: 1.5s;
-    background-color: rgba(212, 17, 56, 0.788);
+    background-color: rgba(128, 128, 128, 0.884);
 }
 
 .cart.active {
