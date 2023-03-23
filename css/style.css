@@ -403,7 +403,31 @@ span{
 	color: yellow;
 	transform: translateX(-5px);
 }
+.contact-content .text {
+	color: white;
+}
+.contact-content .place .loc-icon {
+	color: white;
+}
+.contact-content .phone .mob-icon {
+	color: white;
+}
+.contact-content .email .email-icon {
+	color: white;
+}
 
+.contact-content .place span:hover{
+	color: yellow;
+	transform: translateX(-5px);
+}
+.contact-content .phone span:hover{
+	color: yellow;
+	transform: translateX(-5px);
+}
+.contact-content .email span:hover{
+	color: yellow;
+	transform: translateX(-5px);
+}
 /* end text styling*/
 .end-text p{
 	text-align: center;
