@@ -93,7 +93,7 @@ function CartBoxComponent(title, price, imgscr) {
         <div class="cart-price">${price}</div>
         <input type="number" value="1" class="cart-quantity">
     </div>
-    <img class="cart-remove" src="../images/imgaes-product/jean/delete logo.jpg" >
+    <img class="cart-remove" src="images/imgaes-product/jean/delete logo.jpg" >
 </div>`;
 
 
