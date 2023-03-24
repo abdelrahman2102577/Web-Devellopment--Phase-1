@@ -60,10 +60,10 @@ const validateInputs = () => {
 
 
     if (emailvalid === true && email.value === "admin@111.com" && passvalid === true && password.value === "admin1111") {
-        window.open("../html/dashboard.html", "_blank", "height=1000, width=2000");
+        window.open("dashboard.html", "_blank", "height=1000, width=2000");
     }
     if (emailvalid === true && email.value !== "admin@111.com" && passvalid === true && password.value !== "admin1111") {
-        window.open("../html/index.html", "_blank", "height=1000, width=2000");
+        window.open("index.html", "_blank", "height=1000, width=2000");
     }
 };
 
